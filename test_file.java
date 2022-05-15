@@ -1,4 +1,4 @@
-//java code to flip a number
+//java code to flip a number in code entry 
 class Main {
     public static void main(String[] args) {
   
@@ -6,14 +6,14 @@ class Main {
       
       System.out.println("Original Number: " + num);
   
-      // run loop until num becomes 0
+      
       while(num != 0) {
       
-        // get last digit from num
+     
         int digit = num % 10;
         reversed = reversed * 10 + digit;
   
-        // remove the last digit from num
+       
         num /= 10;
       }
       System.out.println("Reversed Number: " + reversed);
